@@ -1,6 +1,7 @@
 #include <stdio.h>
-int main()
+/*Only Compile CFILE*/
+int main(void)
 {
-	int gcc $CFILE -o c
-	return(0)
+	gcc -E $CFILE -o c
+	return (0);
 }
