@@ -5,6 +5,6 @@
  * Return-always 0 (success)
  */int main(void)
 {
-printf("With proper grammar, but the outcome is a piece of ar,");
-return(0);
+printf("With proper grammar, but the outcome is a piece of ar,\n");
+return (0);
 }
