@@ -7,4 +7,4 @@
 {
 printf("With proper grammar, but the outcome is a piece of ar,");
 return (0);
-};
+}
