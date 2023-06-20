@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	char base;
+	int base;
 
 	for (base = '0' ; base <= '9'; base++)
 		putchar (base);
