@@ -3,7 +3,6 @@
 int _putchar(char x) {
     return _putchar(x);
 }
-
 int main(void) 
 {
   int _putchar(char);
