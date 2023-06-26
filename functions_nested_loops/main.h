@@ -1,12 +1,7 @@
-#include <stdio.h>
-#pragma once
-int _putchar(char x) {
-    return _putchar(x);
-}
-int main(void) 
-{
-  int _putchar(char);
-    _putchar('\n');
+#ifndef main_h_
+#define main_h_
+#include <unistd.h>
 
-    return 0;
-}
+int _putchar(char c);
+
+#endif
