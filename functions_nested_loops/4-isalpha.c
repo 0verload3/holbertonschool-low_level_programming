@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_isalpha- Verify lowercase
+ *_isalpha- Verify alpha chars
  *@c: character to be verified
  *Return: always 0
  */
