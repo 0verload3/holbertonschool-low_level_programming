@@ -2,13 +2,16 @@
 /**
  *_abs- What most want.
  *@c: Integer Absolute
- *Return: Always 0
+ *Return: absolute
  */
 int _abs(int c)
 {
-	if (c < 0)
-		_putchar(c);
+	int x = (c * (-1));
 
-_putchar('\n');
-return (0);
+	if (c < 0)
+	{
+		return(x);
+	}
+	else
+		return (c);
 }
