@@ -11,11 +11,12 @@ void print_line(int n)
 		_putchar('\n');
 
 	else
-
+	{
 		for (l = 0; l < n; l++)
 		{
 			_putchar(95);
 		}
 _putchar('\n');
+	}
 }
 
