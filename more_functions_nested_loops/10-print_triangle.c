@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- *
- *
+ *print_triangle- triangle like algebra.
+ *@size: size of triangle.
  */
 void print_triangle(int size)
 {
@@ -11,7 +11,7 @@ void print_triangle(int size)
 		_putchar('\n');
 	for (i = 1; i <= size; i++)
 	{
-		for(j = size; j >= 1; j--)
+		for (j = size; j >= 1; j--)
 		{
 			if (i >= j)
 				_putchar(35);
