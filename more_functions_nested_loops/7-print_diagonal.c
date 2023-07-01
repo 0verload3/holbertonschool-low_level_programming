@@ -1,19 +1,32 @@
 #include "main.h"
-/**
- *print_line- is also main I feel like I am diagonally parked in a parallel universe.
- *@n: number of \'s.
- */
-void print_line(int n)
-{
-	int l;
 
-	for (l = 0; l <= 0; l++)
-		if (n > 0)
+/*
+ * print_diagonal - I feel Like I am diagonally parked in a parallel universe.
+ * @n: number of symbols to be printed.
+ */
+
+void print_diagonal(int n)
+{
+	int i, j;
+
+	if (n <= 0)
+	{
+		_putchar('\n');
+		return;
+	}
+
+	for (i = 0; i < n; i++)
+	{
+		for (j = 0; j <= i; j++)
 		{
-			_putchar(92);
-			_putchar('\n');
+			if (j == i)
+				_putchar(92);
+			else
+				_putchar(' ');
 		}
 
-		else if (n <= 0)
-			_putchar('\n');
+		_putchar('\n');
+	}
 }
+
+
