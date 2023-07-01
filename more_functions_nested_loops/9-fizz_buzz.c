@@ -12,10 +12,6 @@ int main(void)
 
 	for (i = 1; i < 101; i++)
 	{
-		if (i != 101)
-		{
-			printf("%c", ' ');
-		}
 		if (i % 3 == 0 && i % 5 == 0)
 		{
 			printf("FizzBuzz");
@@ -28,10 +24,12 @@ int main(void)
 		{
 			printf("Buzz");
 		}
-		else
+		else if (i != 101)
 		{
 			printf("%d", i);
 		}
+		if (i != 101)
+			printf (" ");
 	}
 	printf("\n");
 	return (0);
