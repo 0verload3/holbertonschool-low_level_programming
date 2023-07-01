@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  * print_diagonal - I feel Like I am diagonally parked in a parallel universe.
  * @n: number of symbols to be printed.
  */
